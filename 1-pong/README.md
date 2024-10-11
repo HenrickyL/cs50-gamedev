@@ -13,6 +13,15 @@ love.keypressed(key)
 love.event.quit()
 ```
 
+2. The rectangle update
+```lua
+love.graphics.newFont(path, size) -- default arial
+love.graphics.setFont(font)
+love.graphics.clear(r,g,b,a)
+love.graphics.rectangle(mode,x,y,width,height)
+
+```
+
 
 ## requirements
 * [x] LOVE2D
